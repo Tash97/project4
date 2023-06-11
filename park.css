@@ -1,0 +1,83 @@
+body{
+    background-color: #719457;
+}
+#navbar{
+    background-image: url("images/banner.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    height: 25vh;
+}
+#navbar_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4b711;
+    font-size: 4em;
+}
+#navbar_img{
+    object-fit: flex;
+}
+#navbar_img > img{
+    object-fit: cover;
+    height: 140%;
+    width: 100%;
+    translate: 0px -4em;
+}
+#navbar_item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+#about{
+    border: 3px solid #465c36;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 1%;
+}
+#about > p{
+    text-indent: 25px;
+}
+
+#gallery_container{
+    margin-top: 2.5%;
+    padding-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+#gallery{
+    padding-left: 4%;
+}
+#gallery > img{
+    margin: 2%;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    object-fit: cover;
+    width: 25em;
+    height: 20em;
+}
+footer{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #465c36;
+    display: flex;
+    justify-content: space-around;
+}
+#address{
+    display: flex;
+    flex-direction: column;
+}
+footer > div{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+}
+footer > div > h{
+    font-size: 1.5em;
+}
+#address > h{
+    font-size: 1.25em;
+}
